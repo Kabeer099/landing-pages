@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+*::selection {
+  color: #fff;
+  background-color: #000;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar .head {
+  padding: 2vw;
+  font-size: 2.5vw;
+  line-height: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: futura;
+  font-weight: bold;
+}
+.elem {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  /* position: relative; */
+  /* padding: 0 3vw; */
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 40px;
+  margin-right: 80px;
+  text-transform: uppercase;
+  font-size: 1.1vw;
+}
+.elem .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 0 40px 0 0;
+  font-size: 1.5vw;
+  background-color: white;
+  padding: 1.5vh 1.5vw;
+  border-radius: 30px;
+}
+
+.page1 {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 0 2vw;
+  padding-top: 18vh;
+}
+.page1 h1 {
+  /* margin-top: -80px; */
+  font-family: futura;
+  font-size: 15.3vw;
+  text-transform: uppercase;
+  line-height: 14vw;
+  letter-spacing: -8px;
+}
+
+.video-container {
+  height: 100vh;
+  width: 100%;
+  /* background-color: aqua; */
+  background-color: antiquewhite;
+}
+
+.video-container video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.play {
+  background-color: #000;
+  color: white;
+  padding: 2.5vw 2.2vw;
+  border-radius: 50%;
+  width: 7.5vw;
+  position: absolute;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 3vw 1vw;
+  justify-content: space-between;
+}
+
+.page2 .element {
+  height: 100%;
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.element img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  scale: 1.1;
+}
+
+.element .dets{
+  height: 8vh;
+  width: 20vw;
+  background-color: pink;
+  position: absolute;
+  border-radius: 30px;
+}
