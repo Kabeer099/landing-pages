@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main-div {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/bg-img.png");
+    object-fit: center;
+    background-repeat: no-repeat;
+    opacity: .9;
+    /* overflow: hidden; */
+}
+
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    width: 100%;
+
+}
+
+.top-section img {
+    height: 60px;
+}
+
+.top-section .sec-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.top-section .sec-one p {
+    color: #ffc965;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.top-section .sec-one i {
+
+    margin-right: 5px;
+}
+
+.top-section .sec-one button {
+    background-color: #ffc965;
+    padding: 10px 30px;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.navbar ul :hover {
+    background-color: #ffc965;
+    color: #fff;
+
+
+
+}
+
+.main-section {
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    height: 100%;
+    display: flex;
+    padding: 100px 0 100px 70px;
+
+
+}
+
+.main-section .left-sec {
+    height: 70%;
+    width: 60%;
+
+}
+
+.left-sec .left-text {
+    /* background-color: red; */
+    height: 70%;
+    width: 100%;
+}
+
+.left-sec .left-text p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 1.4;
+}
+
+.left-sec .left-text .small {
+    color: white;
+    text-transform: none;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 2;
+    width: 70%;
+}
+
+.left-sec .left-text .btns {
+    margin-top: 20px;
+}
+
+.left-sec .left-text .btns button {
+    color: white;
+    padding: 10px 40px;
+    background-color: #ffc965;
+    border: 1px solid white;
+
+}
+
+.left-sec .left-text .btns button:nth-child(2) {
+    color: white;
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid #ffc965;
+    margin-left: 20px;
+}
+
+.left-sec .left-text h1 {
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 1.2;
+    white-space: 50px;
+}
+
+
+.main-section .right-sec {
+    height: 100%;
+    width: 40%;
+    /* position: relative; */
+    /* background-color: rgb(47, 0, 255); */
+
+}
+
+.main-section .right-sec .contact-form {
+    height: 70%;
+    width: 60%;
+    background-color: #ffc9653f;
+    /* opacity: .4; */
+    border-radius: 30px;
+    padding: 40px 10px;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.main-section .right-sec .contact-form p {
+    text-align: center;
+    color: #FFF;
+    padding: 0 30px;
+
+}
+
+
+.main-section .right-sec .contact-form .first {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.contact-form .first input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 45%;
+    padding: 10px 10px;
+    gap: 20px;
+    border-bottom: 1px solid #FFF
+}
+
+.main-section .right-sec .contact-form .second {
+    /* display: flex; */
+    padding-top: 20px;
+    /* justify-content: space-between; */
+}
+
+.contact-form .second input {
+
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    gap: 20px;
+    border-bottom: 1px solid #FFF
+}
+
+.contact-form .second input:nth-child(2) {
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+}
+
+.contact-form button {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.social-icons {
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-two {
+    height: 100vh;
+    width: 100vw;
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.section-two .side-color {
+    position: absolute;
+    top: 16%;
+    border-radius: 30px;
+    left: -3%;
+    background-color: #ffc965;
+    height: 70%;
+    width: 10%;
+
+}
+
+.section-two .detail-sec {
+    /* position: absolute; */
+    height: 100%;
+    width: 50%;
+    display: block;
+    align-items: center;
+    justify-content: end;
+    z-index: 1111;
+    padding: 100px 0 100px 200px;
+
+    /* background-color: aqua; */
+}
+
+
+
+.section-two .side-color-sec {
+    position: absolute;
+    top: 16%;
+    border-radius: 30px;
+    right: -3%;
+    background-color: #ffc965;
+    height: 70%;
+    width: 10%;
+
+}
+
+.section-two .detail-sec h1 {
+    width: 100%;
+    word-spacing: 2px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.section-two .detail-sec p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 30px;
+    color: #4141418d;
+
+}
+
+.section-two .detail-sec button {
+    margin-top: 50px;
+    background-color: #ffc965;
+    padding: 8px 40px;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+
+}
+
+.section-two .image-sec {
+    /* position: absolute; */
+    height: 100%;
+    width: 50%;
+    padding: 100px 200px 0 100px;
+    /* background-color: aqua; */
+}
+
+.section-two .image-sec img {
+    height: 90%;
+    width: 110%;
+    border: 15px solid black;
+    border-radius: 50px;
+}
+
+.gw-services {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.gw-services h1 {
+    color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 800;
+}
+.gw-services .gw-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.gw-services .gw-icons .gw-icon-in {
+   height: 100px;
+   width: 100px;
+   border: 1px solid #ffc965;
+
+    
+   
+}
